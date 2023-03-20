@@ -13,8 +13,6 @@ Code for this code challenge is contained in script.js and index.html files.
 assign your output to the finalOutput variable
 
 
-# YOUR README DESCRIPTION STARTS HERE
-
 # Code-Challenge-1
 ***
 ### AUTHOR:ALBERT THUKU  Date:MARCH 19th
