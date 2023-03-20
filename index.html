@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Code Challenge</title>
+</head>
+<body>
+
+<div class="container">
+<div class="container-1">
+        <h2>Challenge 1: Student Grade Generator (Toy Problem)</h2>
+        <div class="prompt">
+            <form >
+
+                <label for="marks">Marks</label>
+                <input type="text" id="input-grade">
+                <button type="submit" id="grade">Get Grade</button>
+            </form>
+        </div>
+        <h3>Output</h3>
+        <div class="output" id="marks-id">
+            
+        </div>
+        
+    </div>
+    <div class="container-2">
+        <h2>Challenge 2: Speed Detector (Toy Problem)</h2>
+        <div class="prompt">
+            <form action="">
+
+                <label for="speed">speed</label>
+                <input type="text" id="input-speed">
+                <button type="submit" id="speed">Points</button>
+            </form>
+        </div>
+        <h3>Output</h3>
+        <div class="output" id="speed-id">
+            
+        </div>
+    
+        
+    </div>
+    <div class="container-3">
+        <h2>Challenge 3: Net Salary Calculator (Toy Problem)</h2>
+        <div class="prompt">
+            
+                <form action="">
+                    <label for="basic salary">Basic Monthly Slary</label> 
+                    <input type="text" id="input-salary">
+                    <label for="Benefits">Monthly Benefits</label>
+                    <input type="text" id="benefits-amount">
+                    <button type="submit" id="salary">Calculate Net Salary</button>
+                </form>
+            </div>
+        <h3>Output</h3>
+        <div class="output" id="salary-id">
+            
+        </div>
+        
+    </div>
+    </div>
+    </div>
+    
+</body>
+<style>
+.container{
+    width:100vw;
+    height:70vh;
+    display:flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+.container-1, .container-2, .container-3{
+        border:3px solid black;
+        width:30%;
+        height:100%
+     
+    }
+    .output{
+        color:rgb(47, 18, 88);
+        width:40%;
+        height:50%;
+        font-size: 1.2rem;
+    }
+</style>
+<script src="script.js"></script>
+</html>
